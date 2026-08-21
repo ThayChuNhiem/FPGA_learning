@@ -1,0 +1,63 @@
+﻿# =========================================================================
+# Operating System & IDE / Editor junk
+# =========================================================================
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*~
+.vscode/
+.idea/
+
+# =========================================================================
+# Xilinx Vivado Build Artifacts, Logs, and Caches
+# =========================================================================
+*.jou
+*.log
+*.str
+*.backup*
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.dcp
+*.wdb
+*.wcfg.bak
+usage_statistics_webtalk.html
+usage_statistics_webtalk.xml
+webtalk*.log
+webtalk*.jou
+
+# =========================================================================
+# Intel Quartus Prime Build Artifacts & Caches
+# =========================================================================
+db/
+incremental_db/
+output_files/
+simulation/
+*.bsf
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.pof
+*.sof
+*.qws
+
+# =========================================================================
+# Simulation & Waveform Dumps (ModelSim / Questa / Icarus / Verilator)
+# =========================================================================
+*.vcd
+*.fsdb
+*.fst
+work/
+transcript
+vsim.wlf
+*.o
+*.obj
+*.exe
